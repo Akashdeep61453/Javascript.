@@ -14,11 +14,12 @@ string boolean
 null => standalone value
 undefined
 symbol=>unique
+var is not preferred because:
+
 It has function scope (not block scope)
 It allows accidental re-declaration
 It causes confusing bugs due to hoisting
 So developers use let and const instead.*/
-
 
 
 
