@@ -5,7 +5,7 @@ const dc=["superman","flash","batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][0]);
 
-// const all_heros = marvel_heros.concat(dc) // stores in external array
+const all_heros = marvel_heros.concat(dc) // stores in external array
 // console.log(all_heros);
 
 const all_new_heroes = [...marvel_heros, ...dc]
@@ -13,10 +13,10 @@ const all_new_heroes = [...marvel_heros, ...dc]
 
 const another_arr = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 const real_another_array = another_arr.flat(2)
-console.log(real_another_array);
+// console.log(real_another_array);
 
 
-console.log(Array.isArray("Akash"))
+console.log(Array.isArray(real_another_array))
 console.log(Array.from("Akash"))
 console.log(Array.from({name:"Akash"}));//Interesting if output not possible
 // then shows empty array   []

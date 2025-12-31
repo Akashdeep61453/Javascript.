@@ -17,15 +17,15 @@ const jsUser = {
 console.log(jsUser.email);
 console.log(jsUser["email"]);// access it as string
 console.log(jsUser["full name"]);
-// console.log(jsUser.full_name);
+// console.log(jsUser.full name);
 
 
 console.log(jsUser[mySym]); // initialised using []  and accessed using [] not .
 console.log(typeof jsUser[mySym]);
 
 jsUser.email = "Akashmansa@gmail.com"
-// Object.freeze(jsUser)
-jsUser.email= "Akashmansa@microsoft.com" // does not change
+// Object.freeze(jsUser)  does not change
+jsUser.email= "Akashmansa@microsoft.com" 
 console.log(jsUser.email);
 
 jsUser.greeting = function(){
@@ -37,10 +37,4 @@ jsUser.greetingtwo = function(){
 }
 console.log(jsUser.greeting());// undefined
 console.log(jsUser.greetingtwo());// error
-
-
-
-
-
-
 
